@@ -1,16 +1,39 @@
-# React + Vite
+## BMI Calculator – React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive BMI (Body Mass Index) Calculator built using React + Vite.
+Users can enter their weight and height to calculate BMI and instantly see their health status with visual feedback.
 
-Currently, two official plugins are available:
+## Features
+ Calculate BMI using weight (kg) & height (cm)
+ Shows BMI value up to 2 decimal places
+ Displays health status:Underweight,Normal,Obese
+ Shows image based on BMI result
+ Reset button to clear inputs
+ Clean UI with gradient background
+ Built using React Hooks (useState)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+ React
+ Vite
+ CSS
+ JavaScript
 
-## React Compiler
+## How to Run This Project Locally
+git clone https://github.com/Navaneetha-25/BMI_CALCULATOR-USING-REACT.git
+cd BMI_CALCULATOR-USING-REACT
+npm install
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Then open in browser:
+http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Author
+
+Navaneetha C
+GitHub: https://github.com/Navaneetha-25
+
+📜 License
+
+This project is open-source and free to use for learning purposes.
