@@ -46,3 +46,35 @@ button:hover {
   margin-top: 15px;
   border-radius: 10px;
 }
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+  align-items: center; 
+}
+
+.input-group input {
+  width: 65%;
+  height: 44px;
+  padding: 10px 12px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input-group select {
+  width: 80px;
+  padding:8px 10px;
+  font-size: 16px;
+  height: 42px;   
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
